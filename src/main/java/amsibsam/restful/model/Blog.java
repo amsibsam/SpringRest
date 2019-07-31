@@ -1,11 +1,6 @@
 package amsibsam.restful.model;
 
-import javax.persistence.*;
-
-@Entity
 public class Blog {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String title;
     private String content;
